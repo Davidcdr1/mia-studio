@@ -116,9 +116,25 @@ export default function Gallery() {
                   </h3>
                 </div>
 
-                <span className="flex h-10 w-10 items-center justify-center rounded-full border border-white/60 text-xl transition group-hover:bg-white group-hover:text-[#20201E]">
-                  ↗
-                </span>
+                
+<span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full border border-white/70 text-white transition-all duration-300 group-hover:border-white group-hover:bg-white group-hover:text-[#20201E]">
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="18"
+    height="18"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    strokeWidth="1.5"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+    aria-hidden="true"
+    className="transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
+  >
+    <path d="M7 17 17 7" />
+    <path d="M8 7h9v9" />
+  </svg>
+</span>
               </div>
             </button>
           ))}
